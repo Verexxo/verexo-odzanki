@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+@font-face {
+    font-family: vladimir; 
+    src: url('./VLADIMIR.TTF');
+} 
+
+
+
+body{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.pd{
+    display: none;
+}
+.police{
+    margin-top: 2%;
+    background-image: url("assets/backpd.png");
+    background-repeat: no-repeat, repeat;
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+    
+}
+.box-police{
+    width: 200px;
+    height: 350px;
+    margin-left: 58px;
+}
+
+.pd-1-text{
+    width: 166px;
+    height: 10px;
+
+}
+.pd-2-text{
+    margin-top: 77%;
+    width: 166px;
+    height: 15px;
+  
+}
+.pd-3-text{
+    margin-top: 10%;
+    width: 166px;
+    height: 15px;
+ 
+}
+.pd-4-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+   
+}
+.pd-5-text{
+    margin-top: 10.5%;
+    width: 166px;
+    height: 15px;
+  
+}
+.imie-nazwisko-pd{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-podpis-pd{
+    
+    margin: 0;
+    font-family: 'vladimir', cursive;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.imie-stopien-pd{
+  
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-odznaka-pd{
+
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+
+
+
+
+.sd{
+    display: none;
+}
+.sasd{
+    margin-top: 2%;
+    background-image: url("assets/backsasd.png");
+    background-repeat: no-repeat, repeat;
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+    
+}
+.box-sasd{
+    width: 200px;
+    height: 350px;
+    margin-left: 57px;
+}
+.sasd-1-text{
+    width: 166px;
+    height: 15px;
+}
+.sasd-2-text{
+    margin-top: 74%;
+    width: 166px;
+    height: 15px;
+}
+.sasd-3-text{
+    margin-top: 10%;
+    width: 166px;
+    height: 15px;
+}
+.sasd-4-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.sasd-5-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.imie-nazwisko-sasd{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-podpis-sasd{
+    margin: 0;
+    font-family: 'vladimir', cursive;
+    font-weight: 700;
+    font-size: 17px;
+}
+.imie-stopien-sasd{
+  
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-odznaka-sasd{
+
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+
+.lc{
+    display: none;
+}
+.lsc{
+    margin-top: 2%;
+    background-image: url("assets/backlsc.png");
+    background-repeat: no-repeat, repeat;
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+    
+}
+.box-lsc{
+    width: 200px;
+    height: 350px;
+    margin-left: 61px;
+}
+.lsc-1-text{
+    width: 166px;
+    height: 15px;
+}
+.lsc-2-text{
+    margin-top: 74%;
+    width: 166px;
+    height: 15px;
+}
+.lsc-3-text{
+    margin-top: 10%;
+    width: 166px;
+    height: 15px;
+}
+.lsc-4-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.lsc-5-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.imie-nazwisko-lsc{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-podpis-lsc{
+    margin: 0;
+    font-family: 'vladimir', cursive;
+    font-weight: 700;
+    font-size: 17px;
+}
+.imie-stopien-lsc{
+  
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-odznaka-lsc{
+
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.em{
+    display: none;
+}
+.ems{
+    margin-top: 2%;
+    background-image: url("assets/backems.png");
+    background-repeat: no-repeat, repeat;
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+    
+}
+.box-ems{
+    width: 200px;
+    height: 350px;
+    margin-left: 61px;
+}
+.ems-1-text{
+    width: 166px;
+    height: 15px;
+}
+.ems-2-text{
+    margin-top: 74%;
+    width: 166px;
+    height: 15px;
+}
+.ems-3-text{
+    margin-top: 10%;
+    width: 166px;
+    height: 15px;
+}
+.ems-4-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.ems-5-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.imie-nazwisko-ems{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-podpis-ems{
+    margin: 0;
+    font-family: 'vladimir', cursive;
+    font-weight: 700;
+    font-size: 17px;
+}
+.imie-stopien-ems{
+  
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-odznaka-ems{
+
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.do{
+   display: none;
+}
+.doj{
+    margin-top: 2%;
+    background-image: url("assets/backdoj.png");
+    background-repeat: no-repeat, repeat;
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+    
+}
+.box-doj{
+    width: 200px;
+    height: 350px;
+    margin-left: 61px;
+}
+.doj-1-text{
+    width: 166px;
+    height: 15px;
+}
+.doj-2-text{
+    margin-top: 74%;
+    width: 166px;
+    height: 15px;
+}
+.doj-3-text{
+    margin-top: 10%;
+    width: 166px;
+    height: 15px;
+}
+.doj-4-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.doj-5-text{
+    margin-top: 11.5%;
+    width: 166px;
+    height: 15px;
+}
+.imie-nazwisko-doj{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-podpis-doj{
+    margin: 0;
+    font-family: 'vladimir', cursive;
+    font-weight: 700;
+    font-size: 17px;
+}
+.imie-stopien-doj{
+  
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.imie-odznaka-doj{
+
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.lsc22{
+    display: none;
+ }
+ .lsc2{
+     margin-top: 2%;
+     background-image: url("assets/lsc2.png");
+     background-repeat: no-repeat, repeat;
+     width: 600px;
+     height: 380px;
+     border-radius: 30px;
+     
+ }
+ .box-lsc2{
+     width: 200px;
+     height: 350px;
+     margin-left: 61px;
+ }
+ .lsc2-1-text{
+     width: 166px;
+     height: 15px;
+ }
+ .lsc2-2-text{
+     margin-top: 74%;
+     width: 166px;
+     height: 15px;
+ }
+ .lsc2-3-text{
+     margin-top: 10%;
+     width: 166px;
+     height: 15px;
+ }
+ .lsc2-4-text{
+     margin-top: 11.5%;
+     width: 166px;
+     height: 15px;
+ }
+ .lsc2-5-text{
+     margin-top: 11.5%;
+     width: 166px;
+     height: 15px;
+ }
+ .imie-nazwisko-lsc2{
+     font-weight: 600;
+     font-size: 13px;
+ }
+ 
+ .imie-podpis-lsc2{
+     margin: 0;
+     font-family: 'vladimir', cursive;
+     font-weight: 700;
+     font-size: 17px;
+ }
+ .imie-stopien-lsc2{
+   
+     margin: 0;
+     font-weight: 600;
+     font-size: 13px;
+ }
+ 
+ .imie-odznaka-lsc2{
+ 
+     margin: 0;
+     font-weight: 600;
+     font-size: 13px;
+ }
